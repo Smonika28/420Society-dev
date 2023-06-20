@@ -20,8 +20,8 @@ static Route<dynamic> generateRoute(RouteSettings routeSettings){
       return MaterialPageRoute(builder: (_) => const HomePageWithBottomBar());
     case '/intro1Screen':
       return MaterialPageRoute(builder: (_)=>const IntroOneScreen());
-    case '/intro2Screen':
-     return MaterialPageRoute(builder: (_)=> const IntroTwoScreen());
+    // case '/intro2Screen':
+    //  return MaterialPageRoute(builder: (_)=> const IntroTwoScreen());
      case '/forgetPassword' : 
       return MaterialPageRoute(builder: (_)=>  ForgetPasswordScreen());
     default:
